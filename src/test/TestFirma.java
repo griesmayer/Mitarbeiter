@@ -28,6 +28,7 @@ public class TestFirma
 			firma.aufnehmen(new Angestellter("Alex",  1981, 'f', 2017, 3700));
 			firma.aufnehmen(new Arbeiter("Hugo",      1981, 'm', 2020, 100, 40));
 			firma.aufnehmen(new Angestellter("Maria", 1990, 'f', 2001, 2900));
+			firma.aufnehmen(new Angestellter("Andrea",1973, 'f', 2019, 2900));
 			System.out.println(firma);
 			System.out.println("===========================");
 			firma.exportMitarbeiter("/home/thomas/Desktop/Code_2019/4akif/13_TextFiles/mitarbeiter_export.txt");
